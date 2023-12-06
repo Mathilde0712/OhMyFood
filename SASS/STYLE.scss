@@ -1,7 +1,8 @@
-@use "loader.scss";
+@import "loader";
+@import "../restaurants/SASS/composants.scss";
 
 
-$main-color: #9656dc;
+/*$main-color: #9656dc;
 $second-color: #ff79da;
 $third-color: #99e2d0;
 $background: #f6f6f6;
@@ -106,6 +107,7 @@ $grey-tint4: #7e7e7e;
 .lettre:nth-child(8) {
     animation-delay: 0.8s;
 }
+*/
 
 /*** Général ***/
 
