@@ -481,25 +481,6 @@ p {
             grid-column-gap: 50px;
         }
     }
-}
-
-/*** Desktop ***/
-@media (min-width: 1025px) {
-    .main-container {
-        min-width: 1025px;
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    .SectionFonctionnement {
-        margin: 0 180px;
-    }
-
-    .SectionRestaurants {
-        padding: 30px 180px 68px;
-        margin-top: 50px;
-    }
 
     .footerbar {
         flex-direction: row-reverse;
@@ -517,6 +498,7 @@ p {
             flex-direction: row;
             gap: 16px;
             padding-top: 12px;
+            text-align: center;
 
             a:nth-child(2) {
                 padding-right: 45px;
@@ -526,5 +508,27 @@ p {
                 padding-right: 45px;
             }
         }
+    }
+
+
+}
+
+/*** Desktop ***/
+
+@media (min-width: 1025px) {
+    .main-container {
+        min-width: 1025px;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .SectionFonctionnement {
+        margin: 0 180px;
+    }
+
+    .SectionRestaurants {
+        padding: 30px 180px 68px;
+        margin-top: 50px;
     }
 }
