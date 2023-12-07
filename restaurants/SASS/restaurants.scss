@@ -76,6 +76,7 @@ a {
         justify-content: space-around;
         margin-top: 32px;
         margin-bottom: 40px;
+        padding-top: 32px;
 
         h1 {
 
@@ -85,7 +86,7 @@ a {
         }
 
         .title__heart {
-            margin: 0px 40px 15px 0px;
+            margin: 0px 40px 21px 0px;
 
 
             i {
@@ -351,6 +352,18 @@ footer {
         box-sizing: border-box;
     }
 
+    .Section__menu {
+        margin: -50px 96px 0 96px;
+        padding: 50px 105px 40px 105px;
+        width: auto;
+
+
+        .menu__title {
+            justify-content: center;
+            gap: 24px;
+        }
+    }
+
     footer {
         .footerbar {
             flex-direction: row-reverse;
@@ -378,4 +391,24 @@ footer {
         }
 
     }
+}
+
+/*Tablette*/
+@media (min-width: 1025px) {
+    .main-container {
+        min-width: 1025px;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .Section__menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: -50px 190px 0 190px;
+        padding: 0 200px 40px;
+
+    }
+
 }
