@@ -378,7 +378,9 @@ p {
 
         .pinkheart {
             opacity: 0;
-            transition: all;
+            transition: all 0.5s;
+
+
         }
 
         .pinkheart:hover {
