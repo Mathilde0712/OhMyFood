@@ -524,7 +524,7 @@ p {
     padding-right: 45px;
   }
 }
-/*** Desktop ***/
+/*** responsive Desktop ****/
 @media (min-width: 1025px) {
   .main-container {
     min-width: 1025px;
