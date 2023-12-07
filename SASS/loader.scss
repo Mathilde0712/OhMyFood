@@ -1,4 +1,4 @@
-@import "../restaurants/SASS/composants.scss";
+@import "composants";
 
 .loader {
     position: fixed;
@@ -11,7 +11,6 @@
     align-items: center;
     z-index: 3;
     animation: loading 5s both;
-
 }
 
 .lettre {
@@ -22,11 +21,9 @@
     -webkit-background-clip: text;
     color: transparent;
     animation: loader 2s linear infinite both;
-
 }
 
 @keyframes loading {
-
     100% {
         visibility: hidden;
         display: none;
@@ -80,4 +77,22 @@
 
 .lettre:nth-child(8) {
     animation-delay: 0.8s;
+}
+
+/*** Partie responsive***/
+/*** Tablette ***/
+@media (min-width: 767.98px) {
+
+    .loader {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .main-container {
+        min-width: 768px;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
 }

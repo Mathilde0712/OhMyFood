@@ -74,6 +74,20 @@
   animation-delay: 0.8s;
 }
 
+/*** Partie responsive***/
+/*** Tablette ***/
+@media (min-width: 767.98px) {
+  .loader {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .main-container {
+    min-width: 768px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
 /*$main-color: #9656dc;
 $second-color: #ff79da;
 $third-color: #99e2d0;

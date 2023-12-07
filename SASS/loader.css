@@ -71,4 +71,19 @@
 
 .lettre:nth-child(8) {
   animation-delay: 0.8s;
+}
+
+/*** Partie responsive***/
+/*** Tablette ***/
+@media (min-width: 767.98px) {
+  .loader {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .main-container {
+    min-width: 768px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 }/*# sourceMappingURL=loader.css.map */
