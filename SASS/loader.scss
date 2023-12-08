@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     z-index: 3;
-    animation: loading 5s both;
+    animation: loading 3s both;
 }
 
 .lettre {
@@ -20,13 +20,14 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    animation: loader 2s linear infinite both;
+    animation: loader 1.2s linear infinite both;
 }
 
 @keyframes loading {
     100% {
         visibility: hidden;
         display: none;
+
     }
 }
 
@@ -36,10 +37,6 @@
         text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
     }
 
-    90% {
-        text-shadow: none;
-        animation-timing-function: cubic-bezier(0.85, 0.04, 0.41, 0.99);
-    }
 
     100% {
         color: $second-color;

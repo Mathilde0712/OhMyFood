@@ -378,17 +378,18 @@ p {
 
         .pinkheart {
             opacity: 0;
-            transition: all 0.5s;
+            color: transparent;
+            background-image: linear-gradient($second-color, $main-color);
+            background-clip: text;
+            -webkit-background-clip: text;
+            transition: all 1s;
 
 
         }
 
         .pinkheart:hover {
             opacity: 1;
-            color: transparent;
-            background-image: linear-gradient($second-color, $main-color);
-            background-clip: text;
-            -webkit-background-clip: text;
+
         }
     }
 }
