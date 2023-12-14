@@ -1,5 +1,5 @@
 @import "composants";
-@import "loader";
+
 
 /*** Général ***/
 
@@ -118,14 +118,14 @@ hr {
 }
 
 @keyframes menu {
-    0% {
-        /*transform: translateY(-10vh);*/
-        opacity: 1;
+    from {
+        transform: translateY(-30vh);
+        opacity: 0;
     }
 
-    100% {
-        /* transform: translateY(0px);*/
-        opacity: 0;
+    to {
+        transform: translateY(0px);
+        opacity: 1;
     }
 }
 
@@ -190,12 +190,14 @@ hr {
         padding: 12px 15px;
         box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.15);
         overflow: hidden;
-        opacity: 1;
+        opacity: 0;
         /*rajouter*/
         animation-name: menu;
         animation-duration: 3000ms;
+        animation-fill-mode: forwards;
         animation-timing-function: ease-out;
         animation-iteration-count: 1;
+
 
 
         &:hover .card__check {
@@ -397,7 +399,7 @@ footer {
     }
 }
 
-/*Tablette*/
+/*DESKTOP*/
 @media (min-width: 1025px) {
     .main-container {
         min-width: 1025px;
