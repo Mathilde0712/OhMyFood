@@ -366,16 +366,10 @@ p {
     }
 
     .SectionRestaurants {
-        padding: 30px 60px 68px;
+        padding: 30px 140px 68px;
         margin-top: 50px;
 
-        .SectionRestaurants__card {
-            margin: 0;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-row-gap: 50px;
-            grid-column-gap: 50px;
-        }
+
     }
 
     .footerbar {
@@ -426,5 +420,13 @@ p {
     .SectionRestaurants {
         padding: 30px 180px 68px;
         margin-top: 50px;
+
+        .SectionRestaurants__card {
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 50px;
+            grid-column-gap: 50px;
+        }
     }
 }
