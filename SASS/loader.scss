@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     z-index: 3;
-    animation: loading 3s both;
+    animation: loading 3s;
 }
 
 .lettre {
@@ -26,7 +26,7 @@
 @keyframes loading {
     100% {
         visibility: hidden;
-        /*display: none;*/
+        display: none;
 
     }
 }
